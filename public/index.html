@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Recommendation App</title>
+
+<link rel="stylesheet"
+href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<nav class="navbar navbar-dark bg-dark">
+<div class="container">
+<h3 class="text-white">Product Recommendations</h3>
+</div>
+</nav>
+
+<div class="container mt-4">
+
+<div class="row mb-3">
+
+<div class="col-md-4">
+<select id="categoryFilter" class="form-select">
+<option value="">All Categories</option>
+<option value="Electronics">Electronics</option>
+<option value="Fashion">Fashion</option>
+</select>
+</div>
+
+<div class="col-md-4">
+<select id="sortPrice" class="form-select">
+<option value="">Sort</option>
+<option value="price">Price</option>
+</select>
+</div>
+
+<div class="col-md-4">
+<button class="btn btn-primary w-100" onclick="loadItems()">Apply</button>
+</div>
+
+</div>
+
+<div class="row" id="productList">
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

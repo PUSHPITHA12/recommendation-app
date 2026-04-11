@@ -1,0 +1,14 @@
+{
+  "name": "recommendation-app",
+  "version": "1.0.0",
+  "description": "Recommendation system with filter and sort",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "YourName",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.22.1"
+  }
+}
